@@ -8,7 +8,8 @@
     <string name="logo1">logo</string>
 
     <string name="parking_button_text">Parking</string>
-    
+    <string name="title_activity_current__location__gps">title_activity_current_location_gps</string>
+    <string name="gps_button">GPS</string>
     
 
 

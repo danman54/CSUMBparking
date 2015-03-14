@@ -15,6 +15,7 @@
         android:contentDescription="@string/logo1"
         android:src="@drawable/csumbLogoHDPI" />
 
+<<<<<<< HEAD
     <ImageView
         android:id="@+id/backgroundHDPI"
         android:layout_width="match_parent"
@@ -56,6 +57,14 @@
     android:layout_marginTop="56dp"
     android:text="Button" />
 <LinearLayout>
+=======
+    <Button
+        android:id="@+id/gps_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:text="@string/gps_button" />
+>>>>>>> 23e262d46954082d65814e1749786dbfc5a16611
 
 </LinearLayout> <!--  -->
 
