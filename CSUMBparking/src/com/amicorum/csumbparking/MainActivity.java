@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
+//Daniel!!!
 
 public class MainActivity extends Activity {
 
@@ -35,8 +36,13 @@ public class MainActivity extends Activity {
         return super.onOptionsItemSelected(item);
     }
 }
+<<<<<<< HEAD
+
+//This is Cristina testing update
+=======
 //Hello everyone :} Thalia
 
 
 //This is Cristina testing update
 
+>>>>>>> 716625e3ac8df20bacd2864c45e74cd3272f3645
