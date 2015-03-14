@@ -12,6 +12,7 @@
     android:background="#1f346b"
     >
 
+<<<<<<< HEAD
     <Button
         android:id="@+id/parking_button"
         android:layout_width="wrap_content"
@@ -35,3 +36,12 @@
         android:text="Button" />
 
 </LinearLayout> <!--  -->
+=======
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/csumblogo" />
+
+</RelativeLayout>
+>>>>>>> d4304aeab01ca7fcfa9c9821af48387400d40c46

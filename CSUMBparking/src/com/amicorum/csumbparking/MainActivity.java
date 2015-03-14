@@ -37,6 +37,9 @@ public class MainActivity extends Activity {
     }
 }
 
+<<<<<<< HEAD
 //Hello everyone :} Thalia
+=======
+>>>>>>> d4304aeab01ca7fcfa9c9821af48387400d40c46
 
 
