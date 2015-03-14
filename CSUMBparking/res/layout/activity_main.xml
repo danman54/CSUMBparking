@@ -18,15 +18,45 @@
     <ImageView
         android:id="@+id/backgroundHDPI"
         android:layout_width="match_parent"
-        android:layout_width="fill_parent"
-        android:layout_height="378dp"
-        android:layout_height="fill_parent"
+        android:layout_height="match_parent"
         android:layout_x="0dp"
         android:layout_y="0dp"
         android:adjustViewBounds="true"
+        android:background="#1f346b"
         android:contentDescription="@string/background"
         android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/activity_vertical_margin"
         android:scaleType="fitXY"
-        android:src="@drawable/backgroundHDPI" />
+        android:src="@drawable/backgroundHDPI"
+        tools:context="com.amicorum.csumbparking.MainActivity" />
 
-</LinearLayout>
+<ImageView
+    android:id="@+id/imageView1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/csumblogo" />
+<Button
+    android:id="@+id/parking_button"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="106dp"
+    android:layout_marginTop="83dp"
+    android:text="@string/parking_button_text" />
+<Button
+    android:id="@+id/button2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="21dp"
+    android:text="Button" />
+<Button
+    android:id="@+id/button3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="56dp"
+    android:text="Button" />
+<LinearLayout>
+
+</LinearLayout> <!--  -->
+
+
