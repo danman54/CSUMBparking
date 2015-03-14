@@ -13,10 +13,6 @@
         android:layout_height="wrap_content"
         android:src="@drawable/csumb_logo_hdpi" />
 
-<<<<<<< HEAD
-
-
-
     
 <Button
     android:id="@+id/parking_button"
@@ -31,21 +27,14 @@
     android:layout_height="wrap_content"
     android:layout_marginTop="21dp"
     android:text="Button" />
-<Button
-    android:id="@+id/button3"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_marginTop="56dp"
-    android:text="Button" />
-<LinearLayout>
-=======
+
     <Button
         android:id="@+id/gps_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="56dp"
         android:text="@string/gps_button" />
->>>>>>> 23e262d46954082d65814e1749786dbfc5a16611
+
 
 </LinearLayout> <!--  -->
 
