@@ -15,57 +15,32 @@
         android:contentDescription="@string/logo1"
         android:src="@drawable/csumbLogoHDPI" />
 
-<<<<<<< HEAD
-    <ImageView
-        android:id="@+id/backgroundHDPI"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_x="0dp"
-        android:layout_y="0dp"
-        android:adjustViewBounds="true"
-        android:background="#1f346b"
-        android:contentDescription="@string/background"
-        android:gravity="center_vertical"
-        android:orientation="vertical"
-        android:paddingTop="@dimen/activity_vertical_margin"
-        android:scaleType="fitXY"
-        android:src="@drawable/backgroundHDPI"
-        tools:context="com.amicorum.csumbparking.MainActivity" />
 
-<ImageView
-    android:id="@+id/imageView1"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:src="@drawable/csumblogo" />
-<Button
-    android:id="@+id/parking_button"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_marginLeft="106dp"
-    android:layout_marginTop="83dp"
-    android:text="@string/parking_button_text" />
-<Button
-    android:id="@+id/button2"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_marginTop="21dp"
-    android:text="Button" />
-<Button
-    android:id="@+id/button3"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_marginTop="56dp"
-    android:text="Button" />
-<LinearLayout>
-=======
     <Button
-        android:id="@+id/gps_button"
+        android:id="@+id/parking_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="56dp"
-        android:text="@string/gps_button" />
->>>>>>> 23e262d46954082d65814e1749786dbfc5a16611
+        android:layout_marginLeft="106dp"
+        android:layout_marginTop="83dp"
+        android:text="@string/parking_button_text" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:text="Button" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/gps_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="56dp"
+            android:text="@string/gps_button" />
+    </Button>
 
 </LinearLayout> <!--  -->
-
-
