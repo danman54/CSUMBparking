@@ -6,7 +6,6 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
-//Daniel!!!
 
 public class MainActivity extends Activity {
 
@@ -37,9 +36,5 @@ public class MainActivity extends Activity {
     }
 }
 
-<<<<<<< HEAD
-//Hello everyone :} Thalia
-=======
->>>>>>> d4304aeab01ca7fcfa9c9821af48387400d40c46
 
 
