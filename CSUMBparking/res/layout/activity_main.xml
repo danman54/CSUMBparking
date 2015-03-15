@@ -8,15 +8,6 @@
     tools:context="com.amicorum.csumbparking.MainActivity" >
     
 
-    <ImageView
-        android:id="@+id/csumb_logo"
-        android:layout_width="wrap_content"
-        android:layout_height="80dp"
-        android:layout_gravity="center_horizontal"
-        android:contentDescription="@string/logo1"
-        android:layout_marginBottom="10dp"
-        android:src="@drawable/csumb_logo_hdpi" />
-    
     
 
     <LinearLayout
@@ -31,9 +22,7 @@
         android:background="#000044"
         android:orientation="vertical" >
 
-       
-       
-       
+
        <ImageButton
            android:id="@+id/parking_button1"
            android:layout_width="wrap_content"
