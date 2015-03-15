@@ -8,6 +8,7 @@
     tools:context="com.amicorum.csumbparking.MainActivity" >
 
     <ImageView
+
         android:id="@+id/csumb_logo"
         android:layout_width="wrap_content"
         android:layout_height="80dp"
