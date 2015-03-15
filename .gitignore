@@ -12,6 +12,9 @@
 bin/
 gen/
 
+#Google play services
+libs/google-play-services_lib
+
 # Gradle files
 .gradle/
 build/
