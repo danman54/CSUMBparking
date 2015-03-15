@@ -6,19 +6,15 @@
     android:orientation="vertical"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.amicorum.csumbparking.MainActivity" >
-    
 
     <ImageView
         android:id="@+id/csumb_logo"
         android:layout_width="wrap_content"
         android:layout_height="80dp"
-
         android:layout_gravity="center_horizontal"
-        android:contentDescription="@string/logo1"
         android:layout_marginBottom="10dp"
+        android:contentDescription="@string/logo1"
         android:src="@drawable/csumb_logo_hdpi" />
-    
-    
 
     <LinearLayout
         android:layout_width="320dp"
@@ -26,53 +22,49 @@
         android:background="#006666" >
     </LinearLayout>
 
-
-   <LinearLayout
+    <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="450dp"
         android:background="#000044"
         android:orientation="vertical" >
 
-
-
-       <ImageButton
-           android:id="@+id/parking_button1"
-           android:layout_width="wrap_content"
-           android:layout_height="wrap_content"
-           android:layout_marginTop="1dp"
-           android:adjustViewBounds="true"
-           
-           android:contentDescription="@string/parking_button"
-           android:padding="25dp"
-           android:scaleType="fitCenter"
-           android:src="@drawable/parking_button" />
+        <ImageButton
+            android:id="@+id/parking_button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:adjustViewBounds="true"
+            android:background="#00000000"
+            android:contentDescription="@string/parking_button"
+            android:padding="25dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/parking_button" />
 
         <ImageButton
-           android:id="@+id/button1"
-           android:layout_width="wrap_content"
-           android:layout_height="wrap_content"
-           android:layout_marginTop="1dp"
-           android:layout_marginLeft = "5dp"
-           android:adjustViewBounds="true"
-          
-           android:contentDescription="@string/button"
-           android:padding="25dp"
-           android:scaleType="fitCenter"
-           android:src="@drawable/button" />
-        
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="1dp"
+            android:adjustViewBounds="true"
+            android:background="#00000000"
+            android:contentDescription="@string/button"
+            android:padding="25dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/button" />
+
         <ImageButton
-           android:id="@+id/gps_button"
-           android:layout_width="wrap_content"
-           android:layout_height="wrap_content"
-           android:layout_marginTop="1dp"
-           android:layout_marginLeft = "5dp"
-           android:adjustViewBounds="true"
-          
-           android:contentDescription="@string/gps_button"
-           android:padding="25dp"
-           android:scaleType="fitCenter"
-           android:src="@drawable/gps_button" />
-        
+            android:id="@+id/gps_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="1dp"
+            android:adjustViewBounds="true"
+            android:background="#00000000"
+            android:contentDescription="@string/gps_button"
+            android:padding="25dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/gps_button" />
     </LinearLayout>
 
 </LinearLayout>

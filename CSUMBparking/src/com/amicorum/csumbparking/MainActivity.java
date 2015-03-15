@@ -10,33 +10,51 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 public class MainActivity extends Activity {
-	
-	Button gps_button;
+
+	ImageButton gpsButton;
+	ImageButton parkingButton;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-	
-		
-		gps_button = (Button) findViewById(R.id.gps_button);
-		
-		gps_button.setOnClickListener(new OnClickListener() {
-			
+
+		gpsButton = (ImageButton) findViewById(R.id.gps_button);
+		gpsButton.setOnClickListener(new OnClickListener() {
+
 			@Override
 			public void onClick(View v) {
 				goToGPSActivity();
-				
+
 			}
 		});
+		
+		parkingButton = (ImageButton) findViewById(R.id.parking_button1);
+		parkingButton.setOnClickListener(new OnClickListener() {
+
+			@Override
+			public void onClick(View v) {
+				goToMapActivity();
+
+			}
+		});
+		
+		
 
 	}
 
 	public void goToGPSActivity() {
 		Intent intent = new Intent(MainActivity.this,
 				Current_Location_GPS.class);
+		startActivity(intent);
+	}
+	
+	public void goToMapActivity() {
+		Intent intent = new Intent(MainActivity.this,
+				MapActivity.class);
 		startActivity(intent);
 	}
 

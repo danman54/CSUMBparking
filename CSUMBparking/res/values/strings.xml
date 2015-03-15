@@ -4,11 +4,11 @@
     <string name="app_name">CSUMBparking</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
-
     <string name="logo1">Csumblogo</string>
     <string name="title_activity_current__location__gps">title_activity_current_location_gps</string>
     <string name="gps_button">Gpsbutton</string>
     <string name="button">Button</string>
     <string name="parking_button">Parkingbutton</string>
-    
+    <string name="title_activity_map">MapActivity</string>
+
 </resources>
